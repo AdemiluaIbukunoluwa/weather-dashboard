@@ -49,7 +49,7 @@ weather-dashboard/
   OPENWEATHER_API_KEY=api_key
   AWS_BUCKET_NAME=bucket_name
 
-4.Configure AWS credentials:
+4. Configure AWS credentials:
   aws configure
 
 5. Run the application:
