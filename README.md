@@ -1,9 +1,9 @@
 # WEATHER DASHBOARD
 
 ## Overview
-A weather dashboard that fetches data from a weather API, stores it in an Amazon S3 bucket and retreives the data for display
+A weather dashboard that fetches data from a weather API, stores it in an Amazon S3 bucket, and retrieves the data for display.
 
-It combines the following devops principles:
+It combines the following DevOps principles:
 - External API Integration (OpenWeather API)
 - Cloud Storage (AWS S3)
 - Infrastructure as Code
@@ -16,7 +16,7 @@ It combines the following devops principles:
 - Fetches real-time weather data for multiple cities
 - Displays temperature (°F), humidity, and weather conditions
 - Automatically stores weather data in AWS S3
-- Supports multiple cities tracking
+- Supports multiple city tracking
 - Timestamps all data for historical tracking
 
 ## Technical Architecture
@@ -27,8 +27,8 @@ It combines the following devops principles:
 - python-dotenv
 - requests
 
-```markdown
 ## Project Structure
+```markdown
 weather-dashboard/
   src/
     __init__.py
@@ -38,10 +38,11 @@ weather-dashboard/
   .env
   .gitignore
   requirements.txt
-
+```
 ## Setup
 1. Clone the repository:
-  git clone https://github.com/AdemiluaIbukunoluwa/weather-dashboard.git
+   ```bash
+   git clone https://github.com/AdemiluaIbukunoluwa/weather-dashboard.git
 
 2. Install dependencies:
   pip install -r requirements.txt
@@ -57,7 +58,7 @@ weather-dashboard/
   python src/weather_dashboard.py
 
 ### Lessons Learned
-- Gained hands-on experience with API integration and data handline
+- Gained hands-on experience with API integration and data handling
 - Understood the process of storing and retrieving data from AWS S3
 - Environment variable management for secure API keys
 - Git workflow for project development
@@ -65,5 +66,7 @@ weather-dashboard/
 - Cloud resource management
 
 Future Enhancements
-Create automated testing
-Set up CI/CD pipeline
+- Create automated testing
+- Set up CI/CD pipeline
+- Add weather forecasting
+- Implement data visualization
