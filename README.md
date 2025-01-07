@@ -19,7 +19,7 @@ It combines the following devops principles:
 - Supports multiple cities tracking
 - Timestamps all data for historical tracking
 
-  ## Technical Architecture
+## Technical Architecture
 - Language: Python
 - API: OpenWeather API
 - Cloud Provider: AWS
@@ -27,7 +27,7 @@ It combines the following devops principles:
 - python-dotenv
 - requests
 
-  ## Project Structure
+## Project Structure
 weather-dashboard/
   src/
     __init__.py
