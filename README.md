@@ -12,7 +12,7 @@ It combines the following devops principles:
 - Error Handling
 - Environment Management
 
-  ## Features
+## Features
 - Fetches real-time weather data for multiple cities
 - Displays temperature (°F), humidity, and weather conditions
 - Automatically stores weather data in AWS S3
@@ -42,17 +42,17 @@ weather-dashboard/
 1. Clone the repository:
 git clone https://github.com/AdemiluaIbukunoluwa/weather-dashboard.git
 
-3. Install dependencies:
+2. Install dependencies:
 pip install -r requirements.txt
 
-4. Configure environment variables (in the .env file):
+3. Configure environment variables (in the .env file):
 OPENWEATHER_API_KEY=api_key
 AWS_BUCKET_NAME=bucket_name
 
-5.Configure AWS credentials:
+4.Configure AWS credentials:
 aws configure
 
-6. Run the application:
+5. Run the application:
 python src/weather_dashboard.py
 
 ### Lessons Learned
