@@ -27,6 +27,7 @@ It combines the following devops principles:
 - python-dotenv
 - requests
 
+```markdown
 ## Project Structure
 weather-dashboard/
   src/
