@@ -59,7 +59,8 @@ weather-dashboard/
 
 ### Lessons Learned
 - Gained hands-on experience with API integration and data handling
-- Understood the process of storing and retrieving data from AWS S3
+- Understood the process of storing and retrieving data from AWS S3 buckets
+- Learned how to implement appropriate user policies for the S3 bucket to ensure secure access control
 - Environment variable management for secure API keys
 - Git workflow for project development
 - Error handling in distributed systems
