@@ -3,6 +3,9 @@
 ## Overview
 A weather dashboard that fetches data from a weather API, stores it in an Amazon S3 bucket, and retrieves the data for display.
 
+![weather-dashboard drawio](https://github.com/user-attachments/assets/af599166-3c0c-4c6f-b44c-c4a884da9dbd)
+
+
 It combines the following DevOps principles:
 - External API Integration (OpenWeather API)
 - Cloud Storage (AWS S3)
